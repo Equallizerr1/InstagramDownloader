@@ -30,7 +30,9 @@ public void main(String[] args) throws IOException {
             STR."https://graph.instagram.com/v20.0/\{userId}/media?fields=id,caption,media_url,media_type,timestamp&access_token=\{token}";
 
     // purge assets folder for fresh directory
-    purgeDirectory(file);
+    if (file.exists()) {
+        purgeDirectory(file);
+    }
 
     // get first 25 instagram post ids, returns "data" JsonArray
     getPostIds(first25Posts);
