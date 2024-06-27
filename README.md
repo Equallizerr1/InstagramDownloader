@@ -18,4 +18,6 @@ Please follow this [guide](https://muhammadkasim.medium.com/fetch-account-media-
 
 ## ToDo
   - Download urls containing "https://scontent-man2-1.cdninstagram.com/o1/" as .mov files instead of .jpg
+  - Download images into nested folders per carousel post
+  - Bring metadata with images
 
