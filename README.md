@@ -16,3 +16,6 @@ Please follow this [guide](https://muhammadkasim.medium.com/fetch-account-media-
 
 [Postman collection](https://www.postman.com/muhammadkasim/workspace/dark-matter/collection/3057829-8ae21def-620b-4fb1-b925-8f51a6600957?action=share&creator=27645103)
 
+## ToDo
+  - Download urls containing "https://scontent-man2-1.cdninstagram.com/o1/" as .mov files instead of .jpg
+
